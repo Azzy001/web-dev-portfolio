@@ -17,8 +17,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Route, Link, Routes} from 'react-router-dom';
-
 function App() {
   return (
     <div style={{
@@ -37,7 +35,6 @@ function App() {
         <Contact />
         <Footer />
       </div>
-      <Route path="./components/navbar" element={<Navbar />} />
     </div>
   );
 }
