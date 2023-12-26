@@ -1,12 +1,13 @@
 //webpages
 import Navbar from './components/navbar';
+import Social from './components/social';
+import Resume from './components/resume';
 import Home from './components/home';
 import About from './components/about';
 import Skills from './components/skills';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import Social from './components/social';
 
 //css file
 import './index.css';
@@ -28,6 +29,7 @@ function App() {
         <div id="root"></div>
         <Navbar />
         <Social />
+        <Resume />
         <Home />
         <About />
         <Skills />

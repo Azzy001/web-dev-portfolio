@@ -14,7 +14,7 @@ body {
 .topnavbar {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
   background-color: #0a1013;
 }
 
@@ -32,11 +32,11 @@ body {
 
 .topnavbar li a {
   display: block;
-  color: rgb(101, 223, 107);
+  color: rgb(63, 165, 233);
   text-align: center;
   padding: 1em 1.3em;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1.2em;
   transition: color 1s ease;
 }
 
@@ -46,12 +46,12 @@ body {
 }
 
 .topnavbar a.active {
-  color: rgb(224, 183, 47);
+  color: rgb(101, 223, 107);
   transition: color 1s ease;
 }
 
 .navbar-num {
-  color: rgb(30, 157, 196);
+  color: rgb(137, 140, 143);
 }
 
 /*-----all files----------------*/
@@ -84,14 +84,13 @@ body {
 }
 
 /*-----social media-------------*/
-
 .social-media-container {
   position: fixed;
   top: 90%;
   left: 5%;
   height: 100%;
   transform: translateY(-50%);
-  z-index: 1000;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   /* Set the direction to column for vertical arrangement */
@@ -112,14 +111,44 @@ body {
   filter: grayscale(0);
 }
 
-.vertical-line {
+.vertical-line-left {
   height: 100%;
-  /* Adjust the height as needed */
-  width: 5px;
-  /* Width of the vertical line */
+  width: 4px;
   background-color: rgb(101, 223, 107);
   margin: 30px;
-  /* Adjust the margin as needed */
+}
+
+/*-----resume ------------------*/
+.resume-container {
+  position: fixed;
+  top: 0%;
+  right: 5%;
+  height: 100%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-container img {
+  width: 40px;
+  margin: 15px;
+  transition: 1s ease;
+  filter: grayscale(10);
+}
+
+.resume-container img:hover {
+  transform: scale(1.5);
+  transition: 1s ease;
+  filter: grayscale(0);
+}
+
+.vertical-line-right {
+  height: 100%;
+  width: 4px;
+  background-color: rgb(101, 223, 107);
+  margin: 30px;
 }
 
 /*-----home---------------------*/
@@ -299,7 +328,7 @@ body {
 .skills-container {
   /* pip background */
   background-color: #969696;
-  border-radius: 10px;
+  border-radius: 25px;
   height: 370px;
   width: 100%;
   padding: 10px;
@@ -328,52 +357,9 @@ body {
   background-color: #17445e;
 }
 
-.skills-container .spinner-btn {
-  display: block;
-}
-
-.skills-container .btn.btn-primary {
-  display: block;
-  float: none;
-  background-color: #000;
-  width: 80px;
-  border: none;
-  margin: 5px;
-  margin-left: auto;
-  margin-top: 11px;
-}
-
-.skills-container #btn-1 {
-  background-color: #0a0909;
-  color: #0b332c;
-}
-
-.skills-container #btn-2 {
-  background-color: #0a0909;
-  color: #0b332c
-}
-
-.skills-container #btn-3 {
-  background-color: #0a0909;
-  color: #0b332c
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .skills .tab-content {
   background-color: #000000;
-  border-radius: 10px;
+  border-radius: 20px;
   height: 350px;
   width: 100%;
   overflow: hidden;

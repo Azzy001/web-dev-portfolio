@@ -28,23 +28,6 @@ const Skills = () => {
                             <button className="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-messages" type="button" role="tab"
                                 aria-controls="v-pills-messages" aria-selected="false">BUSINESS SKILLS</button>
-
-                            <div class="spinner-btn">
-                                <button class="btn btn-primary" type="button" disabled id="btn-1">
-                                    <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
-                                    <span class="visually-hidden" role="status"></span>
-                                </button>
-
-                                <button class="btn btn-primary" type="button" disabled id="btn-2">
-                                    <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
-                                    <span class="visually-hidden" role="status"></span>
-                                </button>
-
-                                <button class="btn btn-primary" type="button" disabled id="btn-3">
-                                    <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
-                                    <span class="visually-hidden" role="status"></span>
-                                </button>
-                            </div>
                         </div>
 
                         <div className="tab-content" id="v-pills-tabContent">
