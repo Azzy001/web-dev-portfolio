@@ -21,7 +21,7 @@ const Home = () => {
                         <h1 id="home-title-2">Arsalan Mohammad Arref.</h1>
                         <h1 id="home-title-3">AWS Associate DevOps Engineer</h1>
                         <p id="home-para">I'm a UK-based AWS DevOps Engineer with a focus on
-                            seamlessly integrating cloud solutions. Specializing in programming
+                            seamlessly integrating cloud solutions. Specialising in programming
                             and web development, I streamline workflows and enhance scalability
                             using AWS services. Passionate about innovation, I stay ahead in the
                             dynamic DevOps landscape.</p>

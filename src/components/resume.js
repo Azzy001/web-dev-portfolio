@@ -1,5 +1,4 @@
 import social4 from '../images/social/cv.png';
-import React, { useState, useEffect } from 'react';
 
 const Resume = () => {
     return (
