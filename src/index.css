@@ -32,16 +32,16 @@ body {
 
 .topnavbar li a {
   display: block;
-  color: rgb(93, 200, 214);
+  color: rgb(101, 223, 107);
   text-align: center;
-  padding: 1em 1em;
+  padding: 1em 1.3em;
   text-decoration: none;
   font-size: 1.4em;
   transition: color 1s ease;
 }
 
 .topnavbar a:hover:not(.active) {
-  color: rgb(223, 101, 101);
+  color: rgb(219, 86, 86);
   transition: color 1s ease;
 }
 
@@ -50,12 +50,8 @@ body {
   transition: color 1s ease;
 }
 
-.topnavbar img {
-  width: 100px;
-  float: right;
-  border-radius: 10px;
-  padding: 3px;
-  margin: 5px;
+.navbar-num {
+  color: rgb(30, 157, 196);
 }
 
 /*-----all files----------------*/
@@ -270,7 +266,7 @@ body {
 
 .about .badge-num {
   color: rgb(172, 82, 82);
-
+  font-size: 26px;
   text-align: center;
 }
 
@@ -288,7 +284,6 @@ body {
   color: #000000;
 }
 
-
 .about #credly-button:hover {
   background-color: #a72929;
   transition: 1s ease;
@@ -302,7 +297,8 @@ body {
 }
 
 .skills-container {
-  background-color: #17420c;
+  /* pip background */
+  background-color: #969696;
   border-radius: 10px;
   height: 370px;
   width: 100%;
@@ -310,13 +306,15 @@ body {
 }
 
 .skills-container .nav-link {
-  background-color: rgba(12, 14, 19, 0.747);
+  /* button color not:active */
+  background-color: #08192c;
   transition: color 1s ease;
   margin: 6px;
   width: 11em;
 }
 
 .skills-container .nav-link:not(.active) {
+  /* button text color */
   color: rgb(9, 136, 20);
   transition: color 1s ease;
 }
@@ -324,6 +322,10 @@ body {
 .skills-container .nav-link:hover {
   color: rgb(240, 226, 32);
   transition: color 1s ease;
+}
+
+.skills-container .nav-link.active.active {
+  background-color: #17445e;
 }
 
 .skills-container .spinner-btn {
@@ -342,19 +344,20 @@ body {
 }
 
 .skills-container #btn-1 {
-  background-color: rgb(0, 0, 0);
-  color: #00ffd5
+  background-color: #0a0909;
+  color: #0b332c;
 }
 
 .skills-container #btn-2 {
-  background-color: rgb(0, 0, 0);
-  color: #00ffd5;
+  background-color: #0a0909;
+  color: #0b332c
 }
 
 .skills-container #btn-3 {
-  background-color: rgb(0, 0, 0);
-  color: red;
+  background-color: #0a0909;
+  color: #0b332c
 }
+
 
 
 
@@ -440,7 +443,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
-  row-gap: 3em;
+  row-gap: 4em;
   column-gap: 2em;
 }
 

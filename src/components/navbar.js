@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import image1 from '../images/navbar/vault-1.gif';
 
 const Navbar = () => {
     // State to track the active section
@@ -48,31 +47,30 @@ const Navbar = () => {
         <nav className="topnavbar">
             <div className="sections">
                 <ul>
-                    <img src={image1} alt="" />
                     <li><a href="#section-1"
                         onClick={() => scrollToSection('section-1')}
                         className={activeSection === 'section-1' ? 'active' : ''}>
-                        Home</a></li>
+                        <span class="navbar-num">01. </span>Home</a></li>
 
                     <li><a href="#section-2"
                         onClick={() => scrollToSection('section-2')}
                         className={activeSection === 'section-2' ? 'active' : ''}>
-                        About</a></li>
+                        <span class="navbar-num">02. </span>About</a></li>
 
                     <li><a href="#section-3"
                         onClick={() => scrollToSection('section-3')}
                         className={activeSection === 'section-3' ? 'active' : ''}>
-                        Skills</a></li>
+                        <span class="navbar-num">03. </span>Skills</a></li>
 
                     <li><a href="#section-4"
                         onClick={() => scrollToSection('section-4')}
                         className={activeSection === 'section-4' ? 'active' : ''}>
-                        Projects</a></li>
+                        <span class="navbar-num">04. </span>Projects</a></li>
 
                     <li><a href="#section-5"
                         onClick={() => scrollToSection('section-5')}
                         className={activeSection === 'section-5' ? 'active' : ''}>
-                        Contact</a></li>
+                        <span class="navbar-num">05. </span>Contact</a></li>
                 </ul>
             </div>
         </nav>

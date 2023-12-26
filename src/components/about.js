@@ -21,7 +21,7 @@ const About = () => {
                 <div id="section-2">
                     <br />
                 </div>
-                <h1 id="section-title">ABOUT ME</h1>
+                <h1 id="section-title"><span class="navbar-num">02. </span>ABOUT ME</h1>
                 <div className="about-grid-container">
                     <div className="about-grid-item">
                         <p>I am a dedicated and experienced AWS Associate DevOps Engineer

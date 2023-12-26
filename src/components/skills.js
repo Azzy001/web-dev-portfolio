@@ -7,7 +7,7 @@ const Skills = () => {
                 <div id="section-3">
                     <br />
                 </div>
-                <h1 id="section-title">SKILLS</h1>
+                <h1 id="section-title"><span class="navbar-num">03. </span>SKILLS</h1>
                 <div className="skills-container">
                     <div className="d-flex align-items-start">
                         <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
