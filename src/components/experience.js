@@ -45,7 +45,7 @@ const Experience = () => {
                 <div className="experience-container">
                     <ul className="nav nav-underline" id="myTabs">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" data-tab="tab1">Menu</a>
+                            <a className="nav-link active" aria-current="page" data-tab="tab1">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" data-tab="tab2">Exp 01</a>
