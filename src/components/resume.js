@@ -7,7 +7,7 @@ const Resume = () => {
                 <div className="vertical-line-right" id="scroll-line-right">
                     <hr />
                 </div>
-                <a href="/resume/Arsalan_cv_16-09-23.pdf" download="Arsalan_cv_16-09-23.pdf">
+                <a href="../public/resume/Arsalan_cv_16-09-23.pdf" download="Arsalan_cv_16-09-23.pdf">
                     <img src={social4} alt="" /></a>
             </div>
         </div>
