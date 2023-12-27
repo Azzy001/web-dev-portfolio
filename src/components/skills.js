@@ -7,7 +7,7 @@ const Skills = () => {
                 <div id="section-3">
                     <br />
                 </div>
-                <h1 id="section-title"><span class="navbar-num">03. </span>SKILLS</h1>
+                <h1 id="section-title"><span className="navbar-num">03. </span>SKILLS</h1>
                 <div className="skills-container">
                     <div className="d-flex align-items-start">
                         <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
@@ -32,7 +32,7 @@ const Skills = () => {
 
                         <div className="tab-content" id="v-pills-tabContent">
                             <div className="tab-pane fade show active" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="soft-tab" tabindex="0">
+                                aria-labelledby="soft-tab" tabIndex="0">
 
                                 <div className="skills-tab-container">
                                     <div className="skills-tab">
@@ -52,7 +52,7 @@ const Skills = () => {
                             </div>
 
                             <div className="tab-pane fade" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="technical-tab" tabindex="0">
+                                aria-labelledby="technical-tab" tabIndex="0">
                                 <div className="skills-tab-container">
 
                                     <div className="skills-tab">
@@ -82,7 +82,7 @@ const Skills = () => {
                                 </div>
                             </div>
 
-                            <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="technical-tab" tabindex="0">
+                            <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="technical-tab" tabIndex="0">
                                 <div className="skills-tab-container">
 
                                     <div className="skills-tab">
@@ -108,7 +108,7 @@ const Skills = () => {
                                 </div>
                             </div>
 
-                            <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="business-tab" tabindex="0">
+                            <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="business-tab" tabIndex="0">
                                 <div className="skills-tab-container">
 
                                     <div className="skills-tab">
@@ -138,34 +138,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
             </div>
         </div>
     );

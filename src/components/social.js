@@ -10,7 +10,7 @@ const Social = () => {
                 <a href="https://www.linkedin.com/in/arsalan-arref/"><img src={social1} alt="" /></a>
                 <a href="https://github.com/Azzy001"><img src={social2} alt="" /></a>
                 <a href="https://medium.com/@arsalan.arref"><img src={social3} alt="" /></a>
-                <div class="vertical-line-left">
+                <div className="vertical-line-left">
                     <hr />
                 </div>
             </div>

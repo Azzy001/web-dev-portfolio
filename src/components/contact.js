@@ -8,10 +8,8 @@ const Contact = () => {
     return (
         <div className="contact">
             <div className="container">
-                <div id="section-5">
-                    <br />
-                </div>
-                <h5 id="section-title"><span class="navbar-num">05. </span>What's next?</h5>
+                <div id="section-6"><br /></div>
+                <h5 id="section-title"><span className="navbar-num">06. </span>What's next?</h5>
                 <h1>Get in Touch</h1>
                 <p>I'm on the lookout for exciting opportunities and would love to hear from
                     you. Feel free to reach out with any potential projects or just to say hello.

@@ -17,6 +17,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Experience from './components/experience';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

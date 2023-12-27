@@ -65,12 +65,17 @@ const Navbar = () => {
                     <li><a href="#section-4"
                         onClick={() => scrollToSection('section-4')}
                         className={activeSection === 'section-4' ? 'active' : ''}>
-                        <span class="navbar-num">04. </span>Projects</a></li>
+                        <span class="navbar-num">04. </span>Experience</a></li>
 
                     <li><a href="#section-5"
                         onClick={() => scrollToSection('section-5')}
                         className={activeSection === 'section-5' ? 'active' : ''}>
-                        <span class="navbar-num">05. </span>Contact</a></li>
+                        <span class="navbar-num">05. </span>Projects</a></li>
+
+                    <li><a href="#section-6"
+                        onClick={() => scrollToSection('section-6')}
+                        className={activeSection === 'section-6' ? 'active' : ''}>
+                        <span class="navbar-num">06. </span>Contact</a></li>
                 </ul>
             </div>
         </nav>

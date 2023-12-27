@@ -76,6 +76,10 @@ body {
   margin-bottom: 10em;
 }
 
+#section-6 {
+  margin-bottom: 10em;
+}
+
 .container #section-title {
   color: rgb(101, 223, 107);
   font-size: 28px;
@@ -327,7 +331,7 @@ body {
 
 .skills-container {
   /* pip background */
-  background-color: #969696;
+  background-color: #c0bdbd;
   border-radius: 25px;
   height: 370px;
   width: 100%;
@@ -349,7 +353,7 @@ body {
 }
 
 .skills-container .nav-link:hover {
-  color: rgb(240, 226, 32);
+  color: rgb(233, 95, 61);
   transition: color 1s ease;
 }
 
@@ -417,6 +421,94 @@ body {
   border-color: rgb(21, 58, 13);
   text-align: justify;
 }
+
+/*-----experience-------------------*/
+.experience .container {
+  margin-top: 30em;
+  height: 800px;
+  max-width: 60%;
+}
+
+.experience-container .nav {
+  padding: 1em 1.5em;
+  border-bottom: 0.1em solid rgb(18, 45, 95);
+}
+
+.experience-container .nav a {
+  font-size: 19px;
+  padding-left: 1.5em;
+  color: rgb(41, 158, 212);
+  transition: color 1s;
+}
+
+.experience-container .nav a:hover {
+  color: rgb(233, 95, 61);
+}
+
+.experience-container .nav a.active {
+  color: rgb(132, 175, 204);
+}
+
+.experience-container .tab-content {
+  display: none;
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.experience-container .tab-content p {
+  margin-top: 1em;
+  font-size: 18px;
+  color: rgb(157, 163, 157);
+  text-align: justify;
+}
+
+.experience-container .tab-content.active {
+  display: block;
+}
+
+.exp-grid-container .exp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4em;
+  text-align: justify;
+}
+
+.exp-grid-container #position-title {
+  color: rgb(185, 134, 39);
+  font-size: 22px;
+}
+
+.exp-grid-container #section-at {
+  color: rgb(41, 158, 212);
+}
+
+.exp-grid-container #company-name {
+  color: rgb(101, 223, 107);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-----projects-------------------*/
 .projects .container {

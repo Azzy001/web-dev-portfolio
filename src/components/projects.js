@@ -12,10 +12,8 @@ const Projects = () => {
     return (
         <div className="projects">
             <div className="container">
-                <div id="section-4">
-                    <br />
-                </div>
-                <h1 id="section-title"><span class="navbar-num">04. </span>MY PROJECTS</h1>
+                <div id="section-5"><br /></div>
+                <h1 id="section-title"><span className="navbar-num">05. </span>MY PROJECTS</h1>
 
                 <div className="projects-grid-container">
                     <div className="projects-grid-item">
