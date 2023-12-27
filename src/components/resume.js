@@ -8,7 +8,9 @@ const Resume = () => {
                     <hr />
                 </div>
                 <a href="/Arsalan_cv_16-09-23.pdf" download="Arsalan_cv_16-09-23.pdf">
-                    <img src={social4} alt="" /></a>
+    <img src={social4} alt="" />
+</a>
+
             </div>
         </div>
     );

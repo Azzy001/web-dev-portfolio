@@ -36,6 +36,22 @@ const Experience = () => {
         };
     }, []); // Empty dependency array ensures that this effect runs once, similar to componentDidMount
 
+
+    useEffect(() => {
+        // Your existing event listener code here...
+
+        // Select the "Home" tab by default
+        const homeTab = document.querySelector('[data-tab="tab1"]');
+        if (homeTab) {
+            homeTab.classList.add('active');
+            const homeContent = document.getElementById('tab1');
+            if (homeContent) {
+                homeContent.classList.add('active');
+            }
+        }
+    }, []); // Empty dependency array ensures that this effect runs once, similar to componentDidMount
+
+
     return (
         <div className="experience">
             <div className="container">
@@ -45,19 +61,19 @@ const Experience = () => {
                 <div className="experience-container">
                     <ul className="nav nav-underline" id="myTabs">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" data-tab="tab1">Home</a>
+                            <a className="nav-link active" href="#" aria-current="page" data-tab="tab1">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" data-tab="tab2">Exp 01</a>
+                            <a className="nav-link" href="#" data-tab="tab2">Exp 01</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" data-tab="tab3">Exp 02</a>
+                            <a className="nav-link" href="#" data-tab="tab3">Exp 02</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" data-tab="tab4">Exp 03</a>
+                            <a className="nav-link" href="#" data-tab="tab4">Exp 03</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" data-tab="tab5">Exp 04</a>
+                            <a className="nav-link" href="#" data-tab="tab5">Exp 04</a>
                         </li>
                     </ul>
 

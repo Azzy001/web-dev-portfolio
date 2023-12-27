@@ -331,7 +331,7 @@ body {
 
 .skills-container {
   /* pip background */
-  background-color: #c0bdbd;
+  background-color: #101c22;
   border-radius: 25px;
   height: 370px;
   width: 100%;
@@ -340,7 +340,7 @@ body {
 
 .skills-container .nav-link {
   /* button color not:active */
-  background-color: #08192c;
+  background-color: #0c1114;
   transition: color 1s ease;
   margin: 6px;
   width: 11em;
@@ -358,7 +358,8 @@ body {
 }
 
 .skills-container .nav-link.active.active {
-  background-color: #17445e;
+  background-color: #37444d;
+  color: rgb(209, 110, 71);
 }
 
 .skills .tab-content {
